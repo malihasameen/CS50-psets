@@ -1,0 +1,16 @@
+1.  stdint.h is a header file with fixed-width integer types which allows the program to wor universally in any system environment.
+2.  it is a way to specify the no. of bits or space for every typedef in a program/file.
+3.  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+4.  The first byte is 'B' and the second byte is 'M' in ASCII encoding of BMP file format
+5.  biSize: total size of image including pixels and padding
+    bfSize: total size of file including pixels, padding and headers
+6.  biHeight is negative means the image is downward
+7.  biBitCount specifies BMP color depth
+8.  It is due to the fact that file maynot exist or some error occurred while accessing the file
+9.  Because we're reading 1 struct at a time
+10. 3
+11. set your position in the file
+12. SEEK_CUR: current position in the file
