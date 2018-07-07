@@ -1,0 +1,4 @@
+0. Besides 4 x 4, the Game of Fifteen's dimensions used are 3 x 3
+1. Game's board is represented by 2D array
+2. void greet(void) is used to greet the player at game's start
+3. four functions init(), draw(), move() and won() are needed to implement
